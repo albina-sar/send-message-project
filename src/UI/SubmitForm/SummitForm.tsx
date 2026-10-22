@@ -21,20 +21,16 @@ function SubmitForm({ onSubmit }: SubmitFormProps) {
 
   return (
     <form className={styles.container} onSubmit={handleSubmit}>
-      <div>
-        <input
-          type="text"
-          value={input}
-          placeholder="Введите текст"
-          onChange={handleChange}
-          className={styles.input}
-        />
-      </div>
-      <div>
-        <button type="submit" className={styles.button}>
-          Отправить
-        </button>
-      </div>
+      <input
+        type="text"
+        value={input}
+        placeholder="Введите текст"
+        onChange={handleChange}
+        className={styles.input}
+      />
+      <button type="submit" className={styles.button}>
+        Отправить
+      </button>
     </form>
   );
 }

@@ -2,6 +2,9 @@
 
 Веб-приложение для отправки и получения сообщений WhatsApp через GREEN-API. Реализовано на React + TypeScript с long polling для получения входящих сообщений в реальном времени.
 
+## Сертификат квалификации GREEN-API:
+🔗 https://green-api.com/certificates/developer/cdc50421cdb242da.pdf
+
 ## Live Demo
 🔗 [Live Demo](https://green-api-chat-messenger.netlify.app)
 
